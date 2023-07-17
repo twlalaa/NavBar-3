@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  padding: 10px;
+  background-color: rgb(245, 205, 212);
+}
+
+.header-light {
+  padding: 10px 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbfbfb;
+  margin-bottom: 30px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header-input {
+  position: relative;
+}
+
+input {
+  border: 1px #e2e6e9 solid;
+  width: 300px;
+  text-align: center;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  font-size: 16px;
+  color: #28353d;
+  position: relative;
+  left: 10px;
+}
+
+.fa-magnifying-glass {
+  color: #28353d;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 110px;
+  font-size: 16px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li:not(:last-child) {
+  margin-right: 25px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.header-dark {
+  padding: 10px 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #151d20;
+  margin-bottom: 30px;
+}
